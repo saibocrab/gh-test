@@ -1,22 +1,92 @@
-<<!DOCTYPE html>
-    <html lang="en">
+<!doctype html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
 
-    <body>
+    <title>example for Bootstrap</title>
 
-        <!-- header -->
-        <h1>hello</h1>
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootsrtap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-        <!-- content -->
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top-fixed.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
-        <!-- footer -->
+</head>
 
-    </body>
+<body>
 
-    </html>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="jumbotron">
+            <h1>Navbar example</h1>
+            <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
+            <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+        </div>
+
+        <!--user icon in two different styles-->
+        <i class="fas fa-user"></i>
+        <i class="far fa-user"></i>
+        <!--brand icon-->
+        <i class="fab fa-github-square"></i>
+
+        <!-- Site footer -->
+        <div class="col-12">&nbsp;</div>
+        <footer class="footer">
+            <p>&copy; Company 2017</p>
+        </footer>
+
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="lib/jquery/jquery-3.2.1.slim.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/bootsrtap/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome 5 icons  https://fontawesome.com/get-started https://fontawesome.com/icons?d=gallery -->
+    <script defer src="lib/fontawesome-free-5.0.2/svg-with-js/js/fontawesome-all.js"></script>
+
+    <!-- Google icons https://material.io/icons/ -->
+
+
+</body>
+
+</html>
