@@ -4,4 +4,34 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+}
+
+.table-fixed {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.table-fixed tbody {
+    height: 75vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+tbody,
+tr,
+td,
+th {
+    display: block;
+}
+
+.table-fixed tbody td {
+    float: left;
+}
+
+.table-fixed thead tr th {
+    float: left;
+    background-color: #f39c12;
+    border-color: #e67e22;
 }

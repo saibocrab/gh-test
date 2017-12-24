@@ -1,14 +1,14 @@
-<!doctype html>
-<html lang="en">
+<!Doctype html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="saibocrab">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>example for Bootstrap</title>
+    <title>Kyōsō</title>
 
     <!-- Bootstrap core CSS -->
     <link href="lib/bootsrtap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -22,10 +22,13 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">    
+            Kyōsō
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -53,40 +56,5 @@
         </div>
     </nav>
 
-    <main role="main" class="container">
-        <div class="jumbotron">
-            <h1>Navbar example</h1>
-            <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
-            <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
-        </div>
-
-        <!--user icon in two different styles-->
-        <i class="fas fa-user"></i>
-        <i class="far fa-user"></i>
-        <!--brand icon-->
-        <i class="fab fa-github-square"></i>
-
-        <!-- Site footer -->
-        <div class="col-12">&nbsp;</div>
-        <footer class="footer">
-            <p>&copy; Company 2017</p>
-        </footer>
-
-    </main>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="lib/jquery/jquery-3.2.1.slim.min.js"></script>
-    <script src="lib/popper.min.js"></script>
-    <script src="lib/bootsrtap/js/bootstrap.min.js"></script>
-
-    <!-- Font Awesome 5 icons  https://fontawesome.com/get-started https://fontawesome.com/icons?d=gallery -->
-    <script defer src="lib/fontawesome-free-5.0.2/svg-with-js/js/fontawesome-all.js"></script>
-
-    <!-- Google icons https://material.io/icons/ -->
-
-
-</body>
-
-</html>
+    <!-- Content -->
+    <main role="main" class="container small">
