@@ -1,13 +1,15 @@
 
     </main>
+    <!-- Content END -->
 
-
-<!-- Site footer -->
-<footer class="footer badge-dark">
-    <div class="container">
-        <span class="text-muted">&copy; by saibocrab 2017</span>
-    </div>
-</footer>
+    <!-- Footer -->
+    <footer class="footer fixed-bottom badge-dark">
+        <div class="row justify-content-center">
+            <span class="text-muted">&copy; by saibocrab 2017</span>
+        </div>
+    </footer>
+    <!-- Footer END -->
+</div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

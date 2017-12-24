@@ -1,24 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 /* https://developers.google.com/fonts/docs/getting_started */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100%;
 }
 
-.table-fixed {
+main {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+/* table with fixed header */
+
+.my-table-fixed {
     width: 100%;
     background-color: #f3f3f3;
 }
 
-.table-fixed tbody {
-    height: 75vh;
+.my-table-fixed tbody {
+    height: 80vh;
+    /* ez így nem teljesen jó, ezen még kell dolgozni*/
     overflow-y: auto;
     width: 100%;
 }
 
-.table-fixed thead,
+.my-table-fixed thead,
 tbody,
 tr,
 td,
@@ -26,12 +34,26 @@ th {
     display: block;
 }
 
-.table-fixed tbody td {
+.my-table-fixed tbody td {
     float: left;
 }
 
-.table-fixed thead tr th {
+.my-table-fixed thead tr th {
     float: left;
     background-color: #f39c12;
     border-color: #e67e22;
+}
+
+
+/* footer */
+
+.footer {
+    line-height: 40px;
+}
+
+
+/* login page */
+
+.my-row-login-form {
+    margin-top: 50px;
 }
