@@ -44,10 +44,15 @@ th {
     border-color: #e67e22;
 }
 
+.my-home-logo-big {
+    max-height: 75vh;
+    /* ez így nem teljesen jó, ezen még kell dolgozni*/
+}
+
 
 /* footer */
 
-.footer {
+.my-footer {
     line-height: 40px;
 }
 

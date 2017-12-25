@@ -3,7 +3,7 @@
     <!-- Content END -->
 
     <!-- Footer -->
-    <footer class="footer fixed-bottom badge-dark">
+    <footer class="footer fixed-bottom badge-dark my-footer">
         <div class="row justify-content-center">
             <span class="text-muted">&copy; by saibocrab 2017</span>
         </div>
