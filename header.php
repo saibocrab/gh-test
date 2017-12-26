@@ -35,9 +35,6 @@
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="emptypage.php">Empty</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="login.php">Login</a>
                     </li>
                     <li class="nav-item">
@@ -49,9 +46,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="fixed-table.php">Fixed-table</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="table-fixed.php">Table-fixed</a>
+                            <a class="dropdown-item" href="table-1.php">Table-1</a>
+                            <a class="dropdown-item" href="collapse.php">collapse</a>
+                            <a class="dropdown-item" href="jQuery.php">jQuery</a>
+                            <a class="dropdown-item" href="emptypage.php">Empty page</a>
                         </div>
                     </li>
                 </ul>

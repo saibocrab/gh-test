@@ -23,6 +23,11 @@
 
 <!-- Google icons https://material.io/icons/ -->
 
+<script type="text/javascript">
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
 
 </body>
 
