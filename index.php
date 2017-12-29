@@ -28,5 +28,9 @@
     bootstrap funkciók teszteléséhez kiváló:&nbsp;
     <a class="" href="www.bootply.com">www.bootply.com</a>
 </div>
+<div class="row">
+    angular oktatás github:&nbsp;
+    <a class="" href="https://github.com/minutuslausus">https://github.com/minutuslausus</a>
+</div>
 
 <?php include_once("footer.php"); ?>
